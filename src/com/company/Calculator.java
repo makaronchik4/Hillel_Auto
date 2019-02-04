@@ -1,17 +1,15 @@
 package com.company;
 
 public class Calculator {
-    public void thirds(int a) {
-        if (a % 3 == 0) {
-            System.out.println("True");
-        } else {
-            System.out.println("False");
-        }
-    }
-
-    public int plus(int a, int b) {
-        return a + b;
-    }
+//    public boolean thirds(int a) {
+//        if (a % 3 == 0) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+public int plus(int a, int b) {
+    return a + b;
+}
     public int minus(int a, int b) {
         return a - b;
     }
@@ -22,4 +20,9 @@ public class Calculator {
         return a / b;
     }
 
-}
+    }
+
+
+
+
+
